@@ -1,0 +1,36 @@
+/* Style for the table */
+.orders-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .order-table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .order-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .order-table tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  

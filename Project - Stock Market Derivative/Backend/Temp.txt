@@ -1,0 +1,9 @@
+thread_data = {
+                "Time": OrderTime,
+                "SellPrice" : SellPrice,
+                "StopLossPrice": StopLossPrice,
+                "CurrentPrice": CurrentPrice,
+                "Realized_Gain": Realized_Gain,
+                "Total_Gain": Total_Gain
+            }
+            matrix[thread_id] = thread_data
